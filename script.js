@@ -76,10 +76,10 @@ function addReviewItem(imageUrl, reviewerName, reviewMessage) {
         </div>
     `;
 
-	// Get the element with the class "rev-item"
+	// Get the element with the class "review-items"
 	const reviewItemsContainer = document.querySelector(".itemContainer");
 
-	// Append the created review item to the "rev-item" container
+	// Append the created review item to the "review-items" container
 	reviewItemsContainer.appendChild(reviewItemDiv);
 }
 
